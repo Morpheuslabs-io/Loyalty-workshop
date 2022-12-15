@@ -10,7 +10,7 @@
     </a>
 </p>
 
-- You would receive similar as this after finish
+- You would receive similar as following after finish
 
 <p align="center">
     <img src="./images/img12.png" alt="working space" width="70%" height="100%"> 
@@ -79,7 +79,7 @@ yarn
     <p align="center">
         <img src="./images/img11.png" alt="account details" width="20%" height="10%"> 
     </p>
-    
+
     - Repeat these step for the last private key
 
 - Compile smart contracts
