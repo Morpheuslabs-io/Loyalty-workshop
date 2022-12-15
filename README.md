@@ -1,7 +1,61 @@
-<h3 id="readme_start">Prerequisites</h3>
+<h3 id="readme_start">Register ML SEED Account</h3>
+
+- Please follow [this slide](https://docs.google.com/presentation/d/1utNWycRksqtDWLN9p8z2pwjGqRQdJq_GDpVQpbYzgrU/edit?usp=sharing) to register 30-days trial account with MorpheusLabs. It's absolutely free
+
+- Once you've done registration, click on our logo to automatically create a working space and RPC Node that would be used in this experiment
+
+<p align="center">
+    <a href="https://bps.morpheuslabs.io/pages/uploadproject/?f=factorycmbkd9ozkhj7tnby&p=https%3A%2F%2Fgithub.com%2FMorpheuslabs-io%2FLoyalty-workshop.git&installNode=true">
+        <img src="https://morpheus-seed.infura-ipfs.io/ipfs/QmdLQKk1ygXJLN9aLp5gmyUi7sz51Cv8nY4dCgLWTiUr6R">
+    </a>
+</p>
+
+- You would receive similar as this after finish
+
+<p align="center">
+    <img src="./images/img12.png" alt="working space" width="70%" height="100%"> 
+</p>
+
+<p align="center">
+    <img src="./images/img13.png" alt="RPC Node" width="70%" height="100%"> 
+</p>
+
+<h3>Prerequisites</h3>
 
 - Require Metamask wallet, and two accounts with available balances. Follow <a href="./markdown/funding.md#install_metamask">this</a> to create and fund your accounts
-- Once you complete creating Metamask wallet and funding your accounts, it requires to create an environement file
+
+**WARNING**: 
+- DO NOT share private keys to anyone even these accounts only use for testing purpose
+- DO NOT use your main accounts
+- Recommend to create brand new accounts in this experiment 
+
+<h3 id="installation">Installation</h3>
+
+- Open your working space
+- Install dependencies by running this command:
+
+```bash
+cd Loyalty-workshop
+yarn
+```
+
+- Start the RPC Node
+
+<p align="center">
+    <img src="./images/img14.png" alt="Start RPC Node" width="70%" height="100%"> 
+</p>
+
+- Copy RPC Node API and paste into `hardhat.config.js`
+
+<p align="center">
+    <img src="./images/img15.png" alt="Copy RPC Node" width="70%" height="100%"> 
+</p>
+
+<p align="center">
+    <img src="./images/img16.png" alt="Replace hardhat.config.js" width="70%" height="100%"> 
+</p>
+
+- Once you have completed creating Metamask wallet and funding your accounts, it requires to create an environement file
     - Create the `.env` file
     - Find `env.example`, then open and copy all content in this file
     - Paste copied content into `.env` file
@@ -25,20 +79,8 @@
     <p align="center">
         <img src="./images/img11.png" alt="account details" width="20%" height="10%"> 
     </p>
+    
     - Repeat these step for the last private key
-
-**WARNING**: 
-- DO NOT share private keys to anyone even these accounts only use for testing purpose
-- DO NOT use your main accounts
-- Recommend to create brand new accounts in this experiment 
-
-<h3 id="installation">Installation</h3>
-
-- Install dependencies by running this command:
-
-```bash
-yarn
-```
 
 - Compile smart contracts
 
