@@ -5,19 +5,9 @@
 - Once you've done registration, click on our logo to automatically create a working space and RPC Node that would be used in this experiment
 
 <p align="center">
-    <a href="https://bps.morpheuslabs.io/pages/uploadproject/?f=factorycmbkd9ozkhj7tnby&p=https%3A%2F%2Fgithub.com%2FMorpheuslabs-io%2FLoyalty-workshop.git&installNode=true">
+    <a href="https://bps.morpheuslabs.io/pages/uploadproject/?f=factorycmbkd9ozkhj7tnby&p=https%3A%2F%2Fgithub.com%2FMorpheuslabs-io%2FLoyalty-workshop.git&installNode=true&startResources=true">
         <img src="https://morpheus-seed.infura-ipfs.io/ipfs/QmdLQKk1ygXJLN9aLp5gmyUi7sz51Cv8nY4dCgLWTiUr6R">
     </a>
-</p>
-
-- You would receive similar as following after finish
-
-<p align="center">
-    <img src="./images/img12.png" alt="working space" width="70%" height="100%"> 
-</p>
-
-<p align="center">
-    <img src="./images/img13.png" alt="RPC Node" width="70%" height="100%"> 
 </p>
 
 <h3>Prerequisites</h3>
@@ -31,19 +21,12 @@
 
 <h3 id="installation">Installation</h3>
 
-- Open your working space
 - Install dependencies by running this command:
 
 ```bash
 cd Loyalty-workshop
 yarn
 ```
-
-- Start the RPC Node
-
-<p align="center">
-    <img src="./images/img14.png" alt="Start RPC Node" width="70%" height="100%"> 
-</p>
 
 - Copy RPC Node API and paste into `hardhat.config.js`
 

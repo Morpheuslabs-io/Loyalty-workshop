@@ -46,7 +46,7 @@ module.exports = {
             saveDeployments: true
         },
         bttc_test: {
-            url: process.env.BTTC_TESTNET_PROVIDER,
+            url: 'https://loyaltyworkshop-23907.morpheuslabs.io/JuZnSNlYrYIgBbh3HYhrjoTURNgogg',
             accounts: [
                 process.env.DEPLOYER,
                 process.env.ACCOUNT
